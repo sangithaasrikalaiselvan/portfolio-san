@@ -4,11 +4,16 @@ function App() {
   const [activeSection, setActiveSection] = useState('home');
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex items-center justify-center px-4">
-      <div className="text-center space-y-8 max-w-4xl">
+    <div
+      className="min-h-screen flex items-center justify-center px-4 bg-cover bg-center relative"
+      style={{ backgroundImage: "url('/blue space.jpg')" }}
+    >
+      <div className="absolute inset-0 bg-black/70"></div>
+
+      <div className="text-center space-y-8 max-w-4xl z-10">
         <div className="space-y-6">
-          <h1 className="text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight">
-            <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-teal-400 bg-clip-text text-transparent animate-gradient">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
+            <span className="bg-gradient-to-r from-teal-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(45,212,191,0.35)]">
               SANGITHAA SRI
             </span>
           </h1>
@@ -30,12 +35,14 @@ function App() {
                   e.preventDefault();
                   setActiveSection('projects');
                 }}
-                className="text-slate-300 hover:text-cyan-400 transition-all duration-300 font-medium tracking-wide hover:scale-110 inline-block"
+                className="text-white hover:text-cyan-400 transition-all duration-300 font-medium tracking-wide hover:scale-110 inline-block"
               >
                 Projects
               </a>
             </li>
+
             <li className="text-slate-600 mx-2">|</li>
+
             <li>
               <a
                 href="#credentials"
@@ -43,12 +50,14 @@ function App() {
                   e.preventDefault();
                   setActiveSection('credentials');
                 }}
-                className="text-slate-300 hover:text-cyan-400 transition-all duration-300 font-medium tracking-wide hover:scale-110 inline-block"
+                className="text-white hover:text-cyan-400 transition-all duration-300 font-medium tracking-wide hover:scale-110 inline-block"
               >
                 Credentials
               </a>
             </li>
+
             <li className="text-slate-600 mx-2">|</li>
+
             <li>
               <a
                 href="#contact"
@@ -56,7 +65,7 @@ function App() {
                   e.preventDefault();
                   setActiveSection('contact');
                 }}
-                className="text-slate-300 hover:text-cyan-400 transition-all duration-300 font-medium tracking-wide hover:scale-110 inline-block"
+                className="text-white hover:text-cyan-400 transition-all duration-300 font-medium tracking-wide hover:scale-110 inline-block"
               >
                 Contact
               </a>
