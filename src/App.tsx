@@ -221,14 +221,6 @@ function App() {
                   >
                     Close
                   </button>
-                  <a
-                    href="https://drive.google.com/file/d/1sKY-bwIfm_vpPPNkS0FaBgL5ACZo5I8Y/view"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="ml-3 px-3 py-1 border border-cyan-500 text-cyan-300 rounded-md inline-block"
-                  >
-                    View Project
-                  </a>
                 </div>
               </div>
             )}
@@ -258,14 +250,6 @@ function App() {
                   >
                     Close
                   </button>
-                  <a
-                    href="https://www.linkedin.com/posts/sangithaa-sri-k-6b53562ab_realtimedata-cpumonitoring-visualizations-activity-7352648683764551680-HgBd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqf1WkBb_atwaF2VXMuMDAx-GktCFHBPq0"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="ml-3 px-3 py-1 border border-cyan-500 text-cyan-300 rounded-md inline-block"
-                  >
-                    View Project
-                  </a>
                 </div>
               </div>
             )}
@@ -288,15 +272,6 @@ function App() {
                   >
                     Close
                   </button>
-
-                  <a
-                    href="https://www.linkedin.com/posts/sangithaa-sri-k-6b53562ab_intern-activity-7182432957821861888-mOJP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqf1WkBb_atwaF2VXMuMDAx-GktCFHBPq0"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="ml-3 px-3 py-1 border border-cyan-500 text-cyan-300 rounded-md inline-block"
-                  >
-                    View Project
-                  </a>
                 </div>
               </div>
             )}
